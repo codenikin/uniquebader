@@ -1,0 +1,16 @@
+@import 'tailwindcss';
+
+.codenik {
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+}
+.unique {
+  padding: 20px;
+  position: relative;
+  min-height: 100vh;
+}
+.font-anton {
+  font-family: var(--font-anton), system-ui, sans-serif;
+  font-weight: 400;
+}
