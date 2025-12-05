@@ -10,7 +10,7 @@ import { Media } from './collections/Media'
 import { Header } from './globals/Header/config'
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
-import { migrations } from './migrations'
+
 export default buildConfig({
   admin: {
     user: Users.slug,
