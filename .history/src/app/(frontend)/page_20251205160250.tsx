@@ -13,7 +13,7 @@ import Counter from '@/components/Counter/Counter'
 import SlidingTextBackground from '@/components/slidetext'
 import LogoLoop from '@/components/LogoLoop'
 import { FaqSection } from '@/components/FaqSection'
-export const dynamic = 'force-dynamic'
+export const force-dynamic = true
 export default async function HomePage() {
   const fileURL = `vscode://file/${fileURLToPath(import.meta.url)}`
   const techLogos = [
