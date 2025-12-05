@@ -10,9 +10,7 @@ services:
     ports:
       - "3333:3000"
     depends_on:
-      db:
-        condition: service_healthy
-        restart: true
+      - db
     restart: unless-stopped
     environment:
       - PAYLOAD_SECRET=secret
