@@ -40,11 +40,11 @@ const FeatureSection = () => {
             <h5 className="font-Rajdhani text-lg font-semibold text-PrimaryColor-0">
               Steel structure fabrication & erection
             </h5>
-            <h1 className="font-Rajdhani font-bold text-xl leading-7 sm:text-[34px] sm:leading-[44px] md:text-[44px] md:leading-[54px] lg:text-[30px] lg:leading-[40px] xl:text-[36px] xl:leading-[46px] 2xl:text-[42px] 2xl:leading-[52px] text-HeadingColor-0 mt-[18px] mb-3">
+            <h1 className="font-anton font-bold text-xl leading-7 sm:text-[34px] sm:leading-[44px] md:text-[44px] md:leading-[54px] lg:text-[30px] lg:leading-[40px] xl:text-[36px] xl:leading-[46px] 2xl:text-[42px] 2xl:leading-[52px] text-HeadingColor-0 mt-[18px] mb-3">
               Building Strong <br />
               Foundations for Every Project
             </h1>
-            <p className="font-Nunito text-TextColor2-0 pb-9 border-b border-BorderColor2-0 relative before:absolute before:left-0 before:-bottom-px before:w-[50px] before:h-px before:bg-blue-500 animate-dance4">
+            <p className="font-Nunito text-TextColor2-0 pb-9 border-b border-BorderColor2-0 relative before:absolute before:left-0 before:-bottom-px before:w-[50px] before:h-px before:bg-blue-500 before:animate-dance4">
               BaderTech is a trusted name in steel structures, civil construction, and industrial
               engineering works in both the UAE and India. With years of hands-on experience,
               advanced technical expertise, and a commitment to quality, we deliver structural
