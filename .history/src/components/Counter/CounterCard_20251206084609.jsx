@@ -26,10 +26,7 @@ const CounterCard = ({ counterNumber, counterDesc, counterSuffex }) => {
     }
   }, [])
   return (
-    <div
-      ref={cardRef}
-      className="text-center relative before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 before:w-px before:h-full before:bg-linear-to-b before:from-transparent before:via-white before:to-transparent />"
-    >
+    <div className="text-center relative before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 before:w-px before:h-full before:bg-linear-to-b before:from-transparent before:via-white before:to-transparent />">
       <div>
         <CountUp
           start={startCounting ? 0 : null}

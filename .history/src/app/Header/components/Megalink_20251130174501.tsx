@@ -1,6 +1,0 @@
-const Megalink = () => {
-return(
-    
-)
-
-}

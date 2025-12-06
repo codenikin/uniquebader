@@ -171,9 +171,9 @@ export default function Footer() {
 
       <div>
         <div className="container mx-auto px-6 text-center">
-          <p className="text-sm">Copyright © 2025 Rays Trading. All rights reserved.</p>
+          <p className="text-sm">Copyright © 2025 Unique Bader. All rights reserved.</p>
           <p className="text-xs mt-1">
-            <span className="text-white py-2 font-medium">Power By: cloud IT Solutions</span>
+            <span className="text-white py-2 font-medium">Power By: Codenik</span>
           </p>
         </div>
       </div>
