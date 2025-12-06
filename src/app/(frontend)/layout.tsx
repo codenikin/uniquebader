@@ -25,14 +25,17 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
     <html className={`${anton.variable}`} lang="en">
       <meta name="robots" content="noindex, nofollow" />
       <body>
-        <AichatComponent />
-        <Header />
-        <div id="smooth-wrapper">
-          <div id="smooth-content">
-            <Providers>{children}</Providers>
-            <Footer />
+        <Providers>
+          <div id="smooth-wrapper">
+            <AichatComponent />
+            <Header />
+
+            <div id="smooth-content">
+              {children}
+              <Footer />
+            </div>
           </div>
-        </div>
+        </Providers>
       </body>
     </html>
   )
