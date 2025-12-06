@@ -121,13 +121,11 @@ export const ScrollAnimation = () => {
    ********************************************/
   document.querySelectorAll('.counter-section').forEach((section) => {
     const cards = section.querySelectorAll("[data-trigger='counter-card']")
-
     ScrollTrigger.create({
       trigger: section,
       start: 'top 50%',
       onEnter: () => {
         cards.forEach((card) => {
-          // Re-trigger react-countup component
           const event = new Event('start-counting')
           card.dispatchEvent(event)
         })
