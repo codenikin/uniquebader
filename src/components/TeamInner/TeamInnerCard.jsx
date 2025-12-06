@@ -11,8 +11,8 @@ const TeamInnerCard = ({
   teamShareIcon,
 }) => {
   return (
-    <div className="group relative ">
-      <div className="relative overflow-hidden before:absolute before:bottom-0 before:left-0 before:bg-[#f5f8ed] before:w-full before:h-1/2 before:rounded-t-md before:-z-10">
+    <div className="group relative  p-2 sm:p-0">
+      <div className="relative overflow-hidden before:absolute before:bottom-0 before:left-0 before:bg-[#f5f8ed] before:w-full before:h-1/2 before:rounded-t-md before:-z-10 ">
         <img src={teamThumb} className="w-full xl:w-[inherit] m-auto" />
       </div>
       <div className="bg-gray-200 relative transition-all duration-500 [clip-path:polygon(0_0,100%_0%,100%_100%,50%_84%,0_100%)] rounded-md text-center pt-[22px] pb-10 rounded-b-md before:absolute before:bottom-0 before:left-0 before:w-full before:h-1/2 before:bg-[url('/team-shape.png')] before:bg-no-repeat before:bg-cover before:-z-10 before:rounded-md group-hover:bg-blue-600 group-hover:-mt-9">
