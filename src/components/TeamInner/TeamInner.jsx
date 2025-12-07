@@ -67,7 +67,7 @@ const TeamInner = () => {
       ;
       <section className="bg-[url('/images/team-bg.jpg')] bg-no-repeat bg-cover bg-center py-28 relative">
         <div className="Containe max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 lg:items-center">
+          <div className="grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 lg:items-center p-8">
             <div>
               <h5 className="font-Rajdhani text-lg font-semibold text-PrimaryColor-0">
                 Dedicated Team

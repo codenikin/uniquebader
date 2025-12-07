@@ -31,9 +31,9 @@ export const DisplaySections = () => {
             </div>
 
             <div className="p-6">
-              <div className="flex items-start">
+              <div className="flex col items-start">
                 <div className="mt-1 mr-4 p-2 bg-linear-to-br from-blue-500 to-blue-600 rounded-lg shadow-md">
-                  <svg
+                  {/* <svg
                     className="w-5 h-5 text-white"
                     fill="none"
                     stroke="currentColor"
@@ -45,17 +45,32 @@ export const DisplaySections = () => {
                       strokeWidth="2"
                       d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
                     />
+                  </svg> */}
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M3 18V7M21 18V7M3 7
+       C8 3 16 11 21 7"
+                    />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white">Tensile Structure</h3>
-                  <p className="mt-3 text-gray-300">
-                    At Bader Technical Works LLC, we offer end-to-end services including concept
-                    design, 3D modeling, structural analysis, fabrication, and on-site installation.
-                    Our tensile structures enhance outdoor environments while providing long-term
-                    protection and aesthetic value.
-                  </p>
-                </div>
+
+                <h3 className="text-xl font-bold text-white">Tensile Structure</h3>
+              </div>
+              <div>
+                <p className="mt-3 text-gray-300">
+                  At Bader Technical Works LLC, we offer end-to-end services including concept
+                  design, 3D modeling, structural analysis, fabrication, and on-site installation.
+                  Our tensile structures enhance outdoor environments while providing long-term
+                  protection and aesthetic value.
+                </p>
               </div>
             </div>
           </div>
@@ -79,9 +94,9 @@ export const DisplaySections = () => {
             </div>
 
             <div className="p-6">
-              <div className="flex items-start">
+              <div className="flex col items-start">
                 <div className="mt-1 mr-4 p-2 bg-linear-to-br from-purple-500 to-purple-600 rounded-lg shadow-md">
-                  <svg
+                  {/* <svg
                     className="w-5 h-5 text-white"
                     fill="none"
                     stroke="currentColor"
@@ -93,16 +108,31 @@ export const DisplaySections = () => {
                       strokeWidth="2"
                       d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
                     />
+                  </svg> */}
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M3 18L3 8M21 18L21 8M3 8
+       Q12 2 21 8"
+                    />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white">Car Parking Shades</h3>
-                  <p className="mt-3 text-gray-300">
-                    Car parking shades are durable tensile structures designed to protect vehicles
-                    from extreme heat, UV rays, and harsh weather while enhancing the aesthetics of
-                    any parking area.
-                  </p>
-                </div>
+
+                <h3 className="text-xl font-bold text-white">Car Parking Shades</h3>
+              </div>
+              <div>
+                <p className="mt-3 text-gray-300">
+                  Car parking shades are durable tensile structures designed to protect vehicles
+                  from extreme heat, UV rays, and harsh weather while enhancing the aesthetics of
+                  any parking area.
+                </p>
               </div>
             </div>
           </div>
@@ -126,9 +156,9 @@ export const DisplaySections = () => {
             </div>
 
             <div className="p-6">
-              <div className="flex items-start">
+              <div className="flex col items-start">
                 <div className="mt-1 mr-4 p-2 bg-linear-to-br from-green-500 to-green-600 rounded-lg shadow-md">
-                  <svg
+                  {/* <svg
                     className="w-5 h-5 text-white"
                     fill="none"
                     stroke="currentColor"
@@ -140,18 +170,29 @@ export const DisplaySections = () => {
                       strokeWidth="2"
                       d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                     />
+                  </svg> */}
+                  <svg
+                    className="w-5 h-5 text-white"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M2 20l10-14 10 14H2z"
+                    />
                   </svg>
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white">Pergola shades</h3>
-                  <p className="mt-3 text-gray-300">
-                    Our custom pergola shades offer stylish outdoor protection, combining durable
-                    materials with modern design. Ideal for patios, gardens, rooftops, and
-                    commercial spaces, pergolas create inviting shaded areas perfect for relaxing
-                    and entertaining.
-                  </p>
-                </div>
+
+                <h3 className="text-xl font-bold text-white">Pergola shades</h3>
               </div>
+              <p className="mt-3 text-gray-300">
+                Our custom pergola shades offer stylish outdoor protection, combining durable
+                materials with modern design. Ideal for patios, gardens, rooftops, and commercial
+                spaces, pergolas create inviting shaded areas perfect for relaxing and entertaining.
+              </p>
             </div>
           </div>
         </div>
