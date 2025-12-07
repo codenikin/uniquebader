@@ -33,17 +33,20 @@ const images = [
 ]
 
 const Gallery = () => {
-  const galleryRef = useRef([])
+  const galleryRef = useRef<(HTMLDivElement | null)[]>([])
 
   useEffect(() => {
-    gsap.from(galleryRef.current, {
+    const elements = galleryRef.current.filter((el): el is HTMLDivElement => el !== null)
+    if (elements.length === 0) return
+
+    gsap.from(elements, {
       opacity: 0,
       y: 40,
       duration: 1,
       stagger: 0.18,
       ease: 'power3.out',
       scrollTrigger: {
-        trigger: galleryRef.current,
+        trigger: elements[0],
         start: 'top 90%',
       },
     })
@@ -57,7 +60,9 @@ const Gallery = () => {
         {images.map((item, index) => (
           <div
             key={index}
-            ref={(el) => (galleryRef.current[index] = el)}
+            ref={(el) => {
+              galleryRef.current[index] = el
+            }}
             className="group cursor-pointer"
           >
             {/* IMAGE */}
