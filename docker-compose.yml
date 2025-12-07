@@ -15,7 +15,7 @@ services:
     restart: unless-stopped
     environment:
       - PAYLOAD_SECRET=secret
-      - DATABASE_URL=postgresql://badertech:secret@db/badertechdb
+      - DATABASE_URI=postgresql://badertech:secret@db/badertechdb
       - NEXT_PUBLIC_SERVER_URL=https://badertech.codenik.in
       - NEXT_PUBLIC_ORG_NAME=Badertech
     networks:

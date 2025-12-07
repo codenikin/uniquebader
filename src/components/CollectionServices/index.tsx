@@ -47,7 +47,7 @@ export const CollectionServices: React.FC = (props) => {
                 <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
                   {features.map((feature) => (
                     <div key={feature.name} className="flex flex-col shadow-2xl p-6">
-                      <dt className="text-base/7 font-semibold text-gray-900">
+                      <dt className="text-2xl font-bold text-gray-900">
                         <div className="mb-6 flex size-10 items-center justify-center rounded-lg bg-indigo-600">
                           <feature.icon aria-hidden="true" className="size-6 text-white" />
                         </div>

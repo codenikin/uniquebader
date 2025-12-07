@@ -1,14 +1,12 @@
-import { Certificate } from '@/components/Certificate'
-import FeatureSection from '@/components/FeatureSection'
 import { HeroSlider } from '@/components/HeroSlider/HeroSlider'
 import Process from '@/components/Process/Process'
+
 export const dynamic = 'force-dynamic'
-export default async function AwardPage() {
+export default async function ServicePage() {
   return (
     <>
       <HeroSlider />
-      <FeatureSection />
-      <Certificate />
+      <Process />
     </>
   )
 }

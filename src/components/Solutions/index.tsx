@@ -1,43 +1,43 @@
 const solutions = [
   {
-    title: 'Transportation',
+    title: 'Steel Structure Shades',
     description:
-      'Our transportation solutions help cities and companies improve safety, reduce congestion, and provide better services to their customers.',
+      'Our parking shades are built using high-grade materials like HDPE fabric, PVC fabric, aluminum, and steel to ensure maximum UV protection and longevity.',
     image: '/solutions/11.jpeg',
     link: '/transportation',
   },
   {
-    title: 'Critical Infrastructure',
+    title: 'High-Quality Materials & Long-Life Structures',
     description:
-      'Our solutions help protect critical infrastructure from cyber attacks and other threats, ensuring that essential services are always available.',
+      'At BaderTech UAE, we use only premium-grade steel, certified shade fabrics, and weather-resistant components to ensure every structure delivers exceptional strength and long-term reliability.',
     image: '/solutions/9.jpeg',
     link: '/Critical-Infrastructure/critical-infrastructure',
   },
   {
-    title: 'Traffic',
+    title: 'Engineering-Focused Design',
     description:
-      'Our traffic management solutions help reduce congestion, improve safety, and make transportation more efficient for everyone.',
+      'BaderTech UAE follows strict engineering standards, using internationally certified materials such as HDPE, PVC, galvanized steel, and aluminum.',
     image: '/solutions/8.jpeg',
     link: '/Traffic/traffic',
   },
   {
-    title: 'Banking & Finance',
+    title: 'Premium Quality Approach',
     description:
-      'Our solutions help banks and financial institutions improve security, reduce fraud, and provide better services to their customers.',
+      'Quality is at the heart of every BaderTech UAE project. Our advanced materials are chosen for their strength, flexibility, and weather endurance, giving our customers dependable structures that stand the test of time',
     image: '/solutions/10.jpeg',
     link: '/Banking-Finance/banking-finance',
   },
   {
-    title: 'Building & Construction',
+    title: 'Shade Structures for Outdoor Living',
     description:
-      'Our solutions help construction companies improve safety, reduce costs, and complete projects faster and more efficiently.',
+      'We are the UAE’s shade experts—crafting durable, elegant, and weather-resistant shade structures designed to protect, enhance, and elevate your outdoor spaces.',
     image: '/solutions/13.jpeg',
     link: '/Building-Construction/building-construction',
   },
   {
-    title: 'Retail & E-Commerce',
+    title: 'Technical & Professional',
     description:
-      'Our solutions help retailers and e-commerce companies improve customer service, increase sales, and grow their businesses.',
+      'At BaderTech UAE, we use only premium-grade steel, certified shade fabrics, and weather-resistant components to ensure every structure delivers exceptional strength and long-term reliability.',
     image: '/solutions/12.jpeg',
     link: '/Retail-E-Commerce/retail-e-commerce',
   },
